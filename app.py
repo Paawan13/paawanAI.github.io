@@ -14,7 +14,7 @@ def process_input():
         # Get input from the form
         user_input = request.form['user_input']
 
-    genai.configure(api_key="AIzaSyC83Mz94uUQup8NlKC0U9yyxwq7MyIWBxI")
+    genai.configure(api_key="your api key")
 
     defaults = {
     'model': 'models/text-bison-001',
